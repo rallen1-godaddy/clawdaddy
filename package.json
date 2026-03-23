@@ -1,0 +1,30 @@
+{
+  "name": "clawdaddy",
+  "version": "1.0.0",
+  "description": "🦞 ClawDaddy - Claude Code to Figma bridge. Plugin-based, safe and secure!",
+  "type": "module",
+  "bin": {
+    "clawdaddy": "src/core/index.js"
+  },
+  "scripts": {
+    "start": "node src/core/index.js connect",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "figma",
+    "claude",
+    "claude-code",
+    "design-system",
+    "automation",
+    "cli"
+  ],
+  "author": "ClawDaddy Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "ws": "^8.20.0"
+  }
+}
